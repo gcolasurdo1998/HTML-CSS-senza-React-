@@ -1,0 +1,20 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: auto;
+    height: 130px;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10px;
+}
+
+.contenitoreTesto {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 5);
+}

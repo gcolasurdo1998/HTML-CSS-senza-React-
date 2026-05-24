@@ -1,0 +1,77 @@
+.upperline {
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align-last: center;
+    padding: 14px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContent {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 290px;
+    border: groove 3px black;
+    margin: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 3);
+}
+
+.secondLeftContent {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    border: groove 3px black;
+    margin: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 3);
+}
+
+.rightContent {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: groove 3px black;
+    width: 1400px;
+    height: 290px;
+    margin: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 3);
+    position: relative;
+    background-image: url("https://www.cia-france.fr/media/1492/les-films-incontournables-du-cinema-w_2524x884.jpg");
+    background-size: cover;
+    color: darkgreen;
+}
+
+.secondRightContent {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: groove 3px black;
+    width: 1400px;
+    height: 290px;
+    margin: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 3);
+    position: relative;
+    background-image: url("https://media.gqitalia.it/photos/69f712e7dbd69fcae19d277c/3:2/w_1620,h_1080,c_limit/serie-tv-2%20(1).jpg");
+    background-size: cover;
+    color: red;
+}
+
+.linkContent {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+}
+
+.secondLinkContent {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+}
