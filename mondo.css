@@ -1,0 +1,34 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://cdn.ilfaroonline.it/photogallery_new/images/2019/07/aereo-111594.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 130px;
+    height: auto;
+}
+
+.card {
+    background-color: turquoise;
+    border: thick 4px darkturquoise;
+    border-radius: 14px;
+    box-shadow: 14px 14px 20px rgba(0, 0, 4, 7);
+    
+    transition: 
+        transform 0.3s ease,
+        box-shadow 0.3s ease, 
+        background-color 0.3s ease; 
+}
+
+.card:hover { 
+    transform: translateY(7px) scale(1.04);
+    box-shadow: 19px 19px 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
