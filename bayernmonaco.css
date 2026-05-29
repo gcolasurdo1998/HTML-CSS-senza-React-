@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://img.fcbayern.com/image/upload/f_auto/q_auto/ar_16:9,c_fill,g_custom,w_512/v1659348018/cms/public/images/allianz-arena/innenraum/allianz-arena-2.0/6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menubar {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    top: 6px;
+}
+
+.menuitems {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.contenitore {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(228, 70, 70);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
+
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+
+.contenitore:hover {
+    transform: translateY(8px) scale(1.002) rotate(0.5deg);
+
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 10);
+}
+
+.contenuto {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 150px;
+}
