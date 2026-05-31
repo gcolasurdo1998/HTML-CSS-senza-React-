@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/gettyimages-2163357195-68815b9a7717d.jpg?resize=980:*");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.upperbar {
+    position: sticky;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: snow;
+    color: black;
+    padding: 10px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.text {
+    font-size: xx-small;
+    width: 100px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100px;
+    padding: 26px;
+    border: solid 1px black;
+    background-color: snow;
+    color: blue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 16px rgba(0, 0, 2, 4);
+
+    transition: 
+        transform 0.3s ease
+        box-shadow 0.3s ease;
+
+    cursor: pointer;
+}
+
+a {
+    justify-self: end;
+    align-self: end;
+    text-decoration: none;
+    bottom: 0.2px;
+}
+
+h3 {
+    justify-self: start;
+    align-self: start;
+    margin-top: 0.2px;
+}
+
+.icona {
+    place-self: end start;
+}
+
+a:hover {
+    color: red;
+}
+
+.card:hover {
+    transform: translateY(2px) scale(1.002);
+    box-shadow: 10px 10px 16px rgba(0, 0, 4, 8);
+}
